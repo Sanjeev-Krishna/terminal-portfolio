@@ -1,0 +1,4 @@
+id,company,role,period,description
+1,National Informatics Centre,Project Intern,"June 2025 - July 2025",- Built a full-stack web application (Django + PostgreSQL) replacing manual VPN Token application processes used for critical government operations.|- Designed a schema-driven UI with automated PDF generation (ReportLab) and database-backed validation, improving efficiency and reducing administrative overhead.
+2,Google Developer Groups On Campus,Competitive Programmer,"October 2024 - Present",- Engaged in coding challenges, algorithm design, and collaborative technical problem-solving sessions.
+3,Microsoft Innovations Club,Competitive Programmer,"October 2024 - Present",- Engaged in competitive programming challenges, problem-solving exercises, and team-based coding projects.

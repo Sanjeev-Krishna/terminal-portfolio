@@ -1,0 +1,26 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main] # Trigger the action on push to the main branch
+  workflow_dispatch: # Allow manually running the workflow
+
+# Allow this job to clone the repo and create a page deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+      - name: Install, build, and upload your site
+        uses: withastro/action-gh-pages@v1
+        with:
+          # This is where your Vite build output is located
+          path: dist
+          # The user token is used to push to the gh-pages branch
+          token: ${{ secrets.GITHUB_TOKEN }}
