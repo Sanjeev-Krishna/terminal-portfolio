@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Portfolio Terminal
 
-# Run and deploy your AI Studio app
+A unique, interactive **portfolio website** designed as a terminal interface.  
+Explore commands like `/profile`, `/projects`, `/experience`, and more to learn about me.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LM1JgDuHNGSidbG0j_EcW1t7gLZBSDZu
+## Features
+- Terminal-style interface with command-based navigation.
+- Clean UI with left-side profile card and right-side interactive terminal.
+- Commands to view profile, skills, experience, projects, and contact info.
+- Fun and memorable way to showcase portfolio.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## Commands
+- `/help` → Lists all available commands.
+- `/clear` → Clears the terminal.
+- `/profile` → Displays summary, education, achievements, skills, and languages.
+- `/experience` → Shows professional/academic experience.
+- `/projects` → Displays key projects with links.
+- `/contact` → Displays contact information.
+
+---
+
+## Project Structure
+```
+portfolio-terminal/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+└── README.md
+```
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
